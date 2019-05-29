@@ -1,0 +1,45 @@
+/************************************************
+GENERAL
+************************************************/
+
+body{
+    min-height: 100%;
+}
+
+html{
+    height: 100%;
+}
+
+#app{
+    min-height: 100vh;
+}
+
+#content {
+    min-height: calc(100vh - 152px);
+    margin-left: 0;
+}
+
+@media(min-width: 920px ) {
+    #content {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+@media(min-width: 1580px ) {
+    #content {
+        margin-left: 30vw;
+        margin-right: 30vw;
+    }
+}
+
+
+/************************************************
+FOOTER
+************************************************/
+footer {
+    border-radius: 0 !important;
+    border-bottom: 0;
+    margin: 20px 0 0;
+    text-align: center;
+}
